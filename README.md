@@ -46,7 +46,8 @@ O objetivo deste projeto é criar uma plataforma de e-commerce básica onde os u
      cd ecommerce-next-react
 3. Instale as dependências do projeto:
     ```
-     npm install
+     npx create-next-app@latest ecommerce
+     npm install bootstrap@latest react-bootstrap@latest
 4. Execute o projeto:
     ```
      npm run dev
