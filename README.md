@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛒 E-Commerce com Next.jse React
 
-## Getting Started
+Este repositório contém o código-fonte de um e-commerce simples desenvolvido com Next.jse React, que permite aos usuários visualizar e pesquisar produtos, além de navegar entre diferentes categorias. O projeto implementa uma loja online "funcional" com os principais componentes para exibição de produtos e navegação.
 
-First, run the development server:
+## 🌟 Sobre o Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O objetivo deste projeto é criar uma plataforma de e-commerce básica onde os usuários possam visualizar produtos, pesquisar itens específicos e navegar entre diferentes categorias. O projeto simula um sistema de compra com informações fictícias sobre os produtos, como preço, título e imagem.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Funcionalidades Principais:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Exibição de Produtos:** Mostra os produtos disponíveis na loja.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Barra de Pesquisa:** Permite ao usuário pesquisar produtos por nome. (Incompleto)
 
-## Learn More
+- **Sidebar:** Exibe categorias de produtos e ajuda na filtragem.
 
-To learn more about Next.js, take a look at the following resources:
+- **Header:** Exibe o título do site e o menu de navegação.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Footer:** Exibe informações sobre o site e links úteis.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📚 Componentes
 
-## Deploy on Vercel
+- **Footer:** Contém informações sobre o e-commerce, links úteis, e outros detalhes de rodapé.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Header:** A barra de navegação superior, com o nome do e-commerce e links para navegar pelas páginas.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Product:** Componente que exibe informações de um único produto, incluindo imagem, título e preço.
+
+- **ProductList:** Exibe a lista de produtos, renderizando múltiplos componentes Product.
+
+- **SearchBar:** Barra de pesquisa para filtrar produtos por nome.
+
+- **SideBar:** Exibe uma lista de categorias de produtos que o usuário pode selecionar para filtrar os produtos exibidos.
+
+## 🚀 Tecnologias Utilizadas
+- **Next.js:** Framework para React que possibilita renderização do lado do servidor e criação de páginas de forma otimizada.
+- **React:** Biblioteca para construção de interfaces de usuário.
+- **CSS:** Estilização dos componentes do site.
+
+## 🛠️ Como Rodar o Projeto Localmente
+1. Clone este repositório para sua máquina local:
+    ```
+    git clone https://github.com/StephanieCaroll/Ecommerce-IPI.git
+2. Navegue até o diretório do projeto:
+    ```
+     cd ecommerce-next-react
+3. Instale as dependências do projeto:
+    ```
+     npm install
+4. Execute o projeto:
+    ```
+     npm run dev
+5. Abra o navegador e vá para http://localhost:3000 para ver o e-commerce em funcionamento.
+
+## 🤝 Contribuições
+Sinta-se à vontade para contribuir com este repositório! <br>
+
+💡 Sugira novas funcionalidades. <br>
+
+🐛 Relate bugs ou problemas. <br>
+
+📚 Compartilhe recursos ou melhorias no design. <br>
+
+## 📬 Contato
+Autor: Stephanie Caroline, Evellyn Orico, Ewerthon Weslley
+
+E-mail: <br>
+
+LinkedIn: <br>
+
+GitHub: <br>
+
+
