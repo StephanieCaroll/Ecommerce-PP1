@@ -1,6 +1,6 @@
 # 🛒 E-Commerce com Next.jse React
 
-Este repositório contém o código-fonte de um e-commerce simples desenvolvido com Next.jse React, que permite aos usuários visualizar e pesquisar produtos, além de navegar entre diferentes categorias. O projeto implementa uma loja online "funcional" com os principais componentes para exibição de produtos e navegação.
+Este repositório contém o código-fonte de um e-commerce simples desenvolvido com Next.jse React utilizando a API Cheapshark , que permite aos usuários visualizar e pesquisar produtos, além de navegar entre diferentes categorias. O projeto implementa uma loja online "funcional" com os principais componentes para exibição de produtos e navegação.
 
 ## 🌟 Sobre o Projeto
 
@@ -32,10 +32,19 @@ O objetivo deste projeto é criar uma plataforma de e-commerce básica onde os u
 
 - **SideBar:** Exibe uma lista de categorias de produtos que o usuário pode selecionar para filtrar os produtos exibidos.
 
+-  **Cart:** Exibe informações sobre o carrinho.
+
+-  **Oders:** Configurações do corrinho.
+
+-  **Payment:** Formulários para Pagamento.
+
+-  **Toast:** Mensagem de Confirmação.
+
 ## 🚀 Tecnologias Utilizadas
 - **Next.js:** Framework para React que possibilita renderização do lado do servidor e criação de páginas de forma otimizada.
 - **React:** Biblioteca para construção de interfaces de usuário.
 - **CSS:** Estilização dos componentes do site.
+- **API:** Para manipulação de produtos -> www.cheapshark.com
 
 ## 🛠️ Como Rodar o Projeto Localmente
 1. Clone este repositório para sua máquina local:
@@ -51,7 +60,51 @@ O objetivo deste projeto é criar uma plataforma de e-commerce básica onde os u
 4. Execute o projeto:
     ```
      npm run dev
-5. Abra o navegador e vá para http://localhost:3000 para ver o e-commerce em funcionamento.
+5. Abra o navegador e vá para http://localhost:3000 para ver o e-commerce em funcionamento. <br>
+
+## Em caso de dúvidas siga esses passos:
+
+**Crie um novo projeto Next.js e responda o questionário**:
+
+```jsx
+npx create-next-app@latest meu-ecommerce-gamer
+```
+
+Would you like to use TypeScript? No <br>
+
+ Would you like to use ESLint? Yes <br>
+
+Would you like to use Tailwind CSS? Yes <br>
+
+Would you like your code inside a `src/` directory?  No <br>
+
+Would you like to use App Router? (recommended)  Yes <br>
+
+Would you like to use Turbopack for `next dev`?  No <br>
+
+Would you like to customize the import alias (`@/*` by default)?  No <br>
+
+**Instale dependências adicionais** (opcional, para styling e requisições):
+
+```jsx
+npm install axios
+```
+
+```jsx
+npm install bootstrap react-bootstrap
+```
+
+### Execute o Projeto
+
+1. **Inicie o servidor de desenvolvimento**:
+
+```jsx
+npm run dev
+
+```
+
+**Acesse seu e-commerce** em `http://localhost:3000`.
+**Site para API** -> www.cheapshark.com.
 
 ## 🤝 Contribuições
 Sinta-se à vontade para contribuir com este repositório! <br>
